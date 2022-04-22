@@ -16,7 +16,7 @@ load("food_security.rda")
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("The food supply against self-sufficient Ratios (SSR) for each country from 1960s to 2010s"),
+  titlePanel("The food supply against self-sufficient Ratios (SSR) for each country/region from 1960s to 2010s"),
   
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
